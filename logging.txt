@@ -1,0 +1,468 @@
+Request method:	GET
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 05 Nov 2023 17:15:05 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KhH5XYNh259vs%2Fs%2FLweTxYB8ouLYI8mFhJmEWmHU79fLtX0O2X7iATLsSbUHDon9W0BjjygNR9HNwTl2agFbqXA4q0shoQrMicU2aQ5wtGosrTHuvmCvoOtZwFK%2FPPbAN4s42%2B5G"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8216bc9c5b6e29ef-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objectse
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Nokia",
+    "data": {
+        "year": "2020",
+        "price": "16999",
+        "CPU model": "Qualcom",
+        "Hard disk size": "60 GB"
+    }
+}
+HTTP/1.1 404 Not Found
+Date: Sun, 05 Nov 2023 17:15:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MtUpR0SU%2FigATgS3VnDQ5bKAuh7mIfibf9hylVHttj5%2BnDOl%2BL5IpXaDSNt19xmXvHnAjbZ0V5gORFh96bNPiTaCuBl8AlT9Nvj2lkPmbSRO3g8o3Kh68HXDmNyCd%2Fm5oLq62HgV"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8216bcaa7b6ef429-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "timestamp": "2023-11-05T17:15:07.387+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/objectse"
+}
+Request method:	GET
+Request URI:	https://api.restful-api.dev/objects?id=ff8081818b1b4123018b77fc77687bc3
+Proxy:			<none>
+Request params:	<none>
+Query params:	id=ff8081818b1b4123018b77fc77687bc3
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Nokia",
+    "data": {
+        "year": "2020",
+        "price": "16999",
+        "CPU model": "Qualcom",
+        "Hard disk size": "60 GB"
+    }
+}
+HTTP/1.1 200 OK
+Date: Sun, 05 Nov 2023 17:15:08 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BhQX0FMw2tQQExzMebXANJNjcP0VdJfTvwyPWRsX93pKHYoei5Q2opCekX9fTvPggBvgXUftphyf47OKroqTO8vu4MpjZOc6yGxK2qGov9PQ1GZKHx9%2BkBhwczbph3waR5yEE9AQ"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8216bcae48794728-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": "ff8081818b1b4123018b77fc77687bc3",
+        "name": "Nothing Max Pro",
+        "data": {
+            "year": "2024",
+            "price": "999",
+            "CPU model": "N+ Core",
+            "Hard disk size": "1 TB"
+        }
+    }
+]
+Request method:	GET
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Nokia",
+    "data": {
+        "year": "2020",
+        "price": "16999",
+        "CPU model": "Qualcom",
+        "Hard disk size": "60 GB"
+    }
+}
+HTTP/1.1 200 OK
+Date: Sun, 05 Nov 2023 17:15:08 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BWz6Rpu3YxGjQkzKzjE5JqD%2BcQVYdQyUfN5zQK4TpX5KcQ%2BL739LiYCBk6BjYNVFDVc7ebfakeiTMCeCZ9I3nPI%2BS%2FbnvJ4K1ZM%2Bg7MDJXuw8LF%2BAna3ee%2BmqkDwQ9mIEm0v1U0g"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8216bcb22ea24436-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Nokia",
+    "data": {
+        "year": "2020",
+        "price": "16999",
+        "CPU model": "Qualcom",
+        "Hard disk size": "60 GB"
+    }
+}
+HTTP/1.1 200 OK
+Date: Sun, 05 Nov 2023 17:15:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Irsnm8Aes5TXCFtHHK8eu%2BURXX%2F7FUr7M%2Fity9luSy11t1F3AOpgRb%2F7E3eEkw%2B%2FUAN2eG5ZWW9fpbZA9Lj%2F3DwHlNSU0vqRuikB4KcTJJnr8foUagmDl3KREWV6X2mqdtRvhJPO"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8216bcb5fec43f79-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff8081818b8f5d07018ba07b2eaf1042",
+    "name": "Nokia",
+    "createdAt": "2023-11-05T17:15:09.359+00:00",
+    "data": {
+        "year": "2020",
+        "price": "16999",
+        "CPU model": "Qualcom",
+        "Hard disk size": "60 GB"
+    }
+}
+Request method:	GET
+Request URI:	https://api.restful-api.dev/objects?id=ff8081818b8f5d07018ba07b2eaf1042
+Proxy:			<none>
+Request params:	<none>
+Query params:	id=ff8081818b8f5d07018ba07b2eaf1042
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Nokia",
+    "data": {
+        "year": "2020",
+        "price": "16999",
+        "CPU model": "Qualcom",
+        "Hard disk size": "60 GB"
+    }
+}
+HTTP/1.1 200 OK
+Date: Sun, 05 Nov 2023 17:15:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FR%2FBd2NateJgbMGLgxj6N88vaLKedqiKfrKrr38c78uSW4foN5qUhC4dZJiLyHizgRLubW1BTqY1L9YaZVHhERCg5X%2BFfIM20K23yFPA1WnkIw3s1OHbhcRT9SBq1OAovSgb5zxU"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8216bcb9ce52856f-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": "ff8081818b8f5d07018ba07b2eaf1042",
+        "name": "Nokia",
+        "data": {
+            "year": "2020",
+            "price": "16999",
+            "CPU model": "Qualcom",
+            "Hard disk size": "60 GB"
+        }
+    }
+]
